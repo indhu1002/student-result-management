@@ -1,0 +1,30 @@
+/* src/components/StudentList.css */
+.student-list {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+.student-list h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #17a2b8;
+}
+
+.student-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-list th,
+.student-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.student-list tr:hover {
+  background-color: #f1f1f1;
+}

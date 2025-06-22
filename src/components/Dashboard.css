@@ -1,0 +1,39 @@
+/* src/components/Dashboard.css */
+.dashboard {
+  padding: 30px;
+  background: #f9f9f9;
+  min-height: 100vh;
+}
+
+.dashboard h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-size: 28px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 25px;
+  text-align: center;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.03);
+}
+

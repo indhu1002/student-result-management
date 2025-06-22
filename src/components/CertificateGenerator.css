@@ -1,0 +1,95 @@
+/* .certificate-container {
+  padding: 30px;
+  text-align: center;
+  background: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  width: 80%;
+}
+
+.certificate-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.certificate-container button {
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.certificate-container button:hover {
+  background-color: #388e3c;
+} */
+
+
+
+/* .certificate-container {
+  text-align: center;
+  padding: 40px;
+  margin: 40px auto;
+  width: 60%;
+  background-color: #f0f8ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-container h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+.certificate-container button {
+  padding: 12px 30px;
+  font-size: 18px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.certificate-container button:hover {
+  background-color: #005fa3;
+}
+ */
+
+
+
+ /* src/components/CertificateGenerator.css */
+.certificate-container {
+  text-align:center;
+  padding:40px;
+  margin:40px auto;
+  width:60%;
+  background:#f0f8ff;
+  border-radius:12px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.1);
+}
+.certificate-container h2 {
+  font-size:28px;
+  margin-bottom:20px;
+  color:#003366;
+}
+.certificate-container button {
+  padding:12px 30px;
+  font-size:18px;
+  background:#0077cc;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  transition:background-color 0.3s ease;
+}
+.certificate-container button:hover {
+  background:#005fa3;
+}

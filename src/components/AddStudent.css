@@ -1,0 +1,38 @@
+/* src/components/AddStudent.css */
+.add-student {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.add-student h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.add-student form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-student input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.add-student button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.add-student button:hover {
+  background-color: #0056b3;
+}

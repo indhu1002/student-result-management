@@ -1,0 +1,8 @@
+/* src/components/Register.css */
+.auth-container { display:flex; justify-content:center; align-items:center; height:100vh; background:#eef2f5; }
+.auth-form { background:#fff; padding:30px; border-radius:10px; box-shadow:0 5px 15px rgba(0,0,0,0.1); width:320px; text-align:center; }
+.auth-form h2 { margin-bottom:20px; color:#333; }
+.auth-form input { width:100%; padding:12px; margin:8px 0; border:1px solid #ccc; border-radius:6px; }
+.auth-form button { width:100%; padding:12px; background:#28a745; color:#fff; border:none; border-radius:6px; cursor:pointer; }
+.auth-form button:hover { background:#218838; }
+.auth-form p { margin-top:16px; font-size:14px; }

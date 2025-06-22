@@ -1,0 +1,29 @@
+.attendance {
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.attendance h2 {
+  text-align: center;
+  color: #007bff;
+}
+
+.attendance input {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.attendance button {
+  padding: 10px 14px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+

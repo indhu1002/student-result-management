@@ -1,0 +1,36 @@
+/* src/components/EditStudent.css */
+.edit-student {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.edit-student h2 {
+  color: #2196f3;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.edit-student input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.edit-student button {
+  background-color: #2196f3;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-student button:hover {
+  background-color: #0d8ae6;
+}

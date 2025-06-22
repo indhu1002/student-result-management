@@ -1,0 +1,50 @@
+/* src/components/Notifications.css */
+.notifications {
+  background-color: #fff8e1;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+.notifications h2 {
+  font-size: 20px;
+  color: #ff9800;
+  margin-bottom: 15px;
+}
+
+.notice-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.notice-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ffd54f;
+  border-radius: 6px;
+}
+
+.notice-form button {
+  padding: 8px 12px;
+  background-color: #ffa000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.notice-form button:hover {
+  background-color: #fb8c00;
+}
+
+.notifications ul {
+  list-style: none;
+  padding: 0;
+}
+
+.notifications li {
+  margin-bottom: 8px;
+  font-size: 15px;
+  color: #333;
+}
