@@ -1,31 +1,56 @@
 .student-details {
-  max-width: 400px;
+  max-width: 500px;
   margin: 40px auto;
-  background: #f8f9fa;
+  background: #fff;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.student-details h2 {
   text-align: center;
+  margin-bottom: 20px;
+  color: #007bff;
 }
 
-.student-details input {
-  width: 80%;
+.search-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-row input {
+  flex: 1;
   padding: 10px;
-  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
 }
 
-.student-details button {
+.search-row button {
   padding: 10px 16px;
   background-color: #007bff;
-  color: white;
+  color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
 }
 
-.result {
-  margin-top: 20px;
-  background-color: #ffffff;
-  padding: 15px;
-  border-radius: 6px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+.error {
+  color: #e53935;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.details-card p {
+  margin: 8px 0;
+  font-size: 16px;
+}
+
+.marks-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.marks-list li {
+  padding: 4px 0;
 }

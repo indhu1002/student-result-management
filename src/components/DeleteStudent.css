@@ -1,5 +1,5 @@
 /* src/components/DeleteStudent.css */
-.delete-student {
+/* .delete-student {
   background: #fff;
   border-radius: 12px;
   padding: 20px;
@@ -31,4 +31,63 @@
 
 .delete-student button:hover {
   background-color: #c62828;
+} */
+
+
+
+/* src/components/Dashboard.css */
+
+/* Overall dashboard styling */
+.dashboard {
+  padding: 30px;
+  background: #fff9f1; /* light cream background */
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Dashboard title */
+.dashboard h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-size: 28px;
+}
+
+/* Grid layout for feature cards */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Individual card styling */
+.card {
+  background-color: #ffffff; /* white cards for contrast */
+  padding: 25px;
+  text-align: center;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #333;
+  font-weight: 500;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Card hover effect */
+.card:hover {
+  background-color: #007bff;
+  color: #fff;
+  transform: scale(1.03);
+}
+
+/* Responsive typography for smaller screens */
+@media (max-width: 480px) {
+  .dashboard h1 {
+    font-size: 24px;
+  }
+  .card {
+    font-size: 16px;
+    padding: 18px;
+  }
 }

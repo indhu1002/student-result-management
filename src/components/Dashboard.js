@@ -73,7 +73,9 @@ function Dashboard() {
         <Link to="/settings" className="card">⚙️ Settings</Link>
 
         {/* ✅ Newly Added Features */}
-        <Link to="/progress" className="card">📈 Progress Tracker</Link>
+        {/* <Link to="/progress" className="card">📈 Progress Tracker</Link> */}
+        <Link to="/leaderboard" className="card">🏅 Top Performers</Link>
+
         <Link to="/certificate" className="card">🧾 Certificate Generator</Link>
       </div>
     </div>
