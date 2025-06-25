@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ref, get } from "firebase/database";
 import { db } from "../firebase";
 import "./Leaderboard.css";
-import Certificate from "./CertificateGenerator";
+// import Certificate from "./CertificateGenerator";
 
 const Leaderboard = () => {
   const [topStudents, setTopStudents] = useState([]);
@@ -72,7 +72,7 @@ const Leaderboard = () => {
           {topper && (
             <div className="certificate-display">
               <h3>🎖️ Certificate Awarded to Top Performer</h3>
-              <Certificate studentName={topper.name} />
+              {/* <Certificate studentName={topper.name} /> */}
             </div>
           )}
         </>
